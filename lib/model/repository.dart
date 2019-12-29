@@ -52,7 +52,7 @@ final Game codww2 = Game(
 );
 
 final Game fc5 = Game(
-  name: 'Far Cry 5',
+  name: 'Far Cry',
   box:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/box/fc5.jpg',
   cover:
