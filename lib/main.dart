@@ -8,7 +8,7 @@ class FlutterGames extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'iFunner',
+      title: 'iFunnerAPP',
       theme: defaultTheme,
       home: MainPage(),
       debugShowCheckedModeBanner: false,
