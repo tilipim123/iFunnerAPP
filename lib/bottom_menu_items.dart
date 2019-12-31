@@ -12,7 +12,7 @@ enum BottomMenu {
 String menuItemName(BottomMenu layoutType) {
   switch (layoutType) {
     case BottomMenu.home:
-      return 'Início';
+      return 'Serviços';
     case BottomMenu.categoria:
       return 'Busca';
     case BottomMenu.browse:
