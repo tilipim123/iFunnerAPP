@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stream_games/page/Login/page_login.dart';
 import 'package:stream_games/page/page_main.dart';
 import 'package:stream_games/themes.dart';
 
@@ -10,7 +11,7 @@ class FlutterGames extends StatelessWidget {
     return MaterialApp(
       title: 'iFunnerAPP',
       theme: defaultTheme,
-      home: MainPage(),
+      home: login(),
       debugShowCheckedModeBanner: false,
     );
   }
