@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:stream_games/icons.dart';
 
 enum BottomMenu {
-  games,
-  movies,
+  home,
+  categoria,
   browse,
   my,
   more,
@@ -11,9 +11,9 @@ enum BottomMenu {
 
 String menuItemName(BottomMenu layoutType) {
   switch (layoutType) {
-    case BottomMenu.games:
+    case BottomMenu.home:
       return 'Início';
-    case BottomMenu.movies:
+    case BottomMenu.categoria:
       return 'Busca';
     case BottomMenu.browse:
       return 'Localização';
@@ -28,9 +28,9 @@ String menuItemName(BottomMenu layoutType) {
 
 IconData menuIcon(BottomMenu layoutType) {
   switch (layoutType) {
-    case BottomMenu.games:
+    case BottomMenu.home:
       return controllerIcon;
-    case BottomMenu.movies:
+    case BottomMenu.categoria:
       return movieIcon;
     case BottomMenu.browse:
       return browseIcon;

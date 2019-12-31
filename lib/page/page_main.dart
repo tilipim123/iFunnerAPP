@@ -11,7 +11,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  BottomMenu _layoutSelection = BottomMenu.games;
+  BottomMenu _layoutSelection = BottomMenu.home;
 
   @override
   Widget build(BuildContext context) {
@@ -67,11 +67,11 @@ class _MainPageState extends State<MainPage> {
             _buildMenuItem(
                 icon: controllerOutlineIcon,
                 iconSelected: controllerIcon,
-                bottomMenu: BottomMenu.games),
+                bottomMenu: BottomMenu.home),
             _buildMenuItem(
                 icon: movieOutlineIcon,
                 iconSelected: movieIcon,
-                bottomMenu: BottomMenu.movies),
+                bottomMenu: BottomMenu.categoria),
             _buildMenuItem(
                 icon: browseOutlineIcon,
                 iconSelected: browseIcon,
@@ -95,9 +95,9 @@ class _MainPageState extends State<MainPage> {
 
   Widget _buildPage() {
     switch (_layoutSelection) {
-      case BottomMenu.games:
+      case BottomMenu.home:
         return GamesPage();
-      case BottomMenu.movies:
+      case BottomMenu.categoria:
         return ComingSoonPage(menuIcon(_layoutSelection));
       case BottomMenu.browse:
         return ComingSoonPage(menuIcon(_layoutSelection));
@@ -140,10 +140,10 @@ class _MainPageState extends State<MainPage> {
   void _onSelectMenuItem(int index) {
     switch (index) {
       case 0:
-        _onLayoutSelected(BottomMenu.games);
+        _onLayoutSelected(BottomMenu.home);
         break;
       case 1:
-        _onLayoutSelected(BottomMenu.movies);
+        _onLayoutSelected(BottomMenu.categoria);
         break;
       case 2:
         _onLayoutSelected(BottomMenu.browse);
