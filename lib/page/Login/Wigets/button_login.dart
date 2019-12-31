@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stream_games/page/page_main.dart';
 
 class ButtonLogin extends StatelessWidget {
 
@@ -12,7 +13,8 @@ class ButtonLogin extends StatelessWidget {
         bottom: 40,
       ),
       child: InkWell(
-        onTap: (){},
+        onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (context) => MainPage())
+    ),
         child: Container(
           width: 300,
           height: 60,
