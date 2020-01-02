@@ -37,12 +37,12 @@ class _GameDetailsPageState extends State<GameDetailsPage> {
                       Padding(
                         padding: const EdgeInsets.only(right: 8),
                         child: Icon(
-                          Icons.adjust,
+                          Icons.add_shopping_cart,
                           color: Colors.white,
                         ),
                       ),
                       Text(
-                        "Rent",
+                        "Favoritos",
                         style: Theme.of(context)
                             .textTheme
                             .subhead
@@ -74,12 +74,12 @@ class _GameDetailsPageState extends State<GameDetailsPage> {
                       Padding(
                         padding: const EdgeInsets.only(right: 8),
                         child: Icon(
-                          Icons.archive,
+                          Icons.attach_money,
                           color: Colors.green,
                         ),
                       ),
                       Text(
-                        "Buy",
+                        "Comprar",
                         style: Theme.of(context)
                             .textTheme
                             .subhead

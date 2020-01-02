@@ -42,8 +42,10 @@ class _loginState extends State<login>
                   children: <Widget>[
                     Padding(
                       padding: EdgeInsets.only(top: 70, bottom: 30),
-                      child: Icon(Icons.account_balance,color: Colors.blueAccent,
-                      size: 80,),
+                      child: Image.asset("assets/ifunnerclaro.png",
+                      width: 230,
+                      height: 230,
+                      fit: BoxFit.contain,),
                     ),
                     FormContainer(),
                     SignUpButton()

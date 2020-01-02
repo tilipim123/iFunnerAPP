@@ -195,7 +195,7 @@ final Game seaofthieves = Game(
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/seaofthieves.jpg',
   description:
-      'Sea of Thieves offers the essential pirate experience, from sailing and fighting to exploring and looting—everything you need to live the pirate life and create all-new legends.',
+      'Lorem ipsum luctus torquent mollis vulputate fermentum luctus hendrerit sodales massa, non habitasse id consectetur aliquam dui non curabitur dolor vitae, duis non fames mollis lectus eget per lorem magna.',
   platforms: [
     '',
   ],
