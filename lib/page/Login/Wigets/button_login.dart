@@ -22,7 +22,7 @@ class ButtonLogin extends StatelessWidget {
           decoration: BoxDecoration(color: Colors.deepOrange,
           borderRadius: BorderRadius.all(Radius.circular(20.0))
           ),
-          child: Text("Sing in",
+          child: Text("Login",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20,
