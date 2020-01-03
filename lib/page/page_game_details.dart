@@ -53,9 +53,9 @@ class _GameDetailsPageState extends State<GameDetailsPage> {
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(4)),
                   padding: const EdgeInsets.all(12),
-                  color: Colors.green,
-                  highlightColor: Colors.green.shade400,
-                  splashColor: Colors.green.shade400,
+                  color: Colors.deepOrange,
+                  highlightColor: Colors.deepOrangeAccent,
+                  splashColor: Colors.deepOrangeAccent,
                   elevation: 8,
                   highlightElevation: 10,
                 ),
@@ -75,7 +75,7 @@ class _GameDetailsPageState extends State<GameDetailsPage> {
                         padding: const EdgeInsets.only(right: 8),
                         child: Icon(
                           Icons.attach_money,
-                          color: Colors.green,
+                          color: Colors.deepOrange,
                         ),
                       ),
                       Text(
@@ -83,19 +83,19 @@ class _GameDetailsPageState extends State<GameDetailsPage> {
                         style: Theme.of(context)
                             .textTheme
                             .subhead
-                            .apply(color: Colors.green),
+                            .apply(color: Colors.deepOrange),
                       ),
                     ],
                   ),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(4)),
                   padding: const EdgeInsets.all(12),
-                  borderSide: BorderSide(color: Colors.green, width: 4),
-                  color: Colors.white,
+                  borderSide: BorderSide(color: Colors.deepOrange, width: 4),
+                  color: Colors.deepOrange,
                   highlightColor: Colors.white70,
-                  splashColor: Colors.green.shade200,
+                  splashColor: Colors.deepOrangeAccent.shade200,
                   highlightElevation: 0,
-                  highlightedBorderColor: Colors.green.shade400,
+                  highlightedBorderColor: Colors.deepOrangeAccent.shade200,
                 ),
               ),
             ),

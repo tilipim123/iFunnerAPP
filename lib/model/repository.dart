@@ -12,7 +12,7 @@ final List<Game> popularGamesList = [codww2, fallout4, fc5, pvzgw2, riseoftr];
 final Game pvzgw2 = Game(
   name: '9',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/pvzgw2.jpg',
   description:
@@ -32,7 +32,7 @@ final Game pvzgw2 = Game(
 final Game codww2 = Game(
   name: '6',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/codww2.jpg',
   description:
@@ -52,7 +52,7 @@ final Game codww2 = Game(
 final Game fc5 = Game(
   name: '8',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/fc5.jpg',
   description:
@@ -72,7 +72,7 @@ final Game fc5 = Game(
 final Game riseoftr = Game(
   name: '10',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/rotr.jpg',
   description:
@@ -92,7 +92,7 @@ final Game riseoftr = Game(
 final Game detroitbh = Game(
     name: '2',
     box:
-        'https://imgur.com/4PG1gG5.jpg',
+        'https://imgur.com/79WHBIc.jpg',
     cover:
         'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/detroitbh.jpg',
     description:
@@ -111,7 +111,7 @@ final Game detroitbh = Game(
 final Game shadowcolossus = Game(
   name: '3',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/shadowcolossus.jpg',
   description:
@@ -131,7 +131,7 @@ final Game shadowcolossus = Game(
 final Game agentsofmayhem = Game(
   name: '4',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/agentsofmayhem.jpg',
   description:
@@ -151,7 +151,7 @@ final Game agentsofmayhem = Game(
 final Game fallout4 = Game(
   name: '7',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/fallout4.jpg',
   description:
@@ -171,7 +171,7 @@ final Game fallout4 = Game(
 final Game mgsurvive = Game(
   name: '5',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/mgsurvive.jpg',
   description:
@@ -191,7 +191,7 @@ final Game mgsurvive = Game(
 final Game seaofthieves = Game(
   name: '1',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover:
       'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/seaofthieves.jpg',
   description:
@@ -211,7 +211,7 @@ final Game seaofthieves = Game(
 final Game godofwar = Game(
   name: 'God of War',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover: '',
   description:
       'Living as a man outside the shadow of the gods, Kratos must adapt to the unfamiliar Norse lands, unexpected threats, and a second chance at being a father.',
@@ -230,7 +230,7 @@ final Game godofwar = Game(
 final Game monsterhunterw = Game(
   name: 'Monster Hunter World',
   box:
-      'https://imgur.com/4PG1gG5.jpg',
+      'https://imgur.com/79WHBIc.jpg',
   cover: '',
   description:
       'Monster Hunter: World puts you in a living, breathing ecosystem as a hunter that seeks and slays ferocious beasts in heart-pounding battles that unfold across the vast ever-changing terrain. Venture on quests alone or cooperatively with up to three hunters via online drop-in multiplayer.',
