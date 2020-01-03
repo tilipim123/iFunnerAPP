@@ -14,7 +14,7 @@ final Game pvzgw2 = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/pvzgw2.jpg',
+      'https://imgur.com/OIJ7v0V',
   description:
       'The battle for suburbia grows to crazy new heights! In this hilarious, action-packed shooter, zombie leader Dr. Zomboss has strengthened his horde and rebuilt suburbia as a zombie utopia. But hope remains, because for the first time the plants are taking the offensive in an all-out attack to reclaim their turf. Play as the plants in the all-new 24-player Herbal Assault mode, or choose your side in 4-player co-op or Solo Play!',
   platforms: [
@@ -34,7 +34,7 @@ final Game codww2 = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/codww2.jpg',
+      'https://imgur.com/OIJ7v0V.jpg',
   description:
       'Step back in time with Call of Duty WWII. Land in Normandy on D-Day and battle across Europe through iconic locations in history’s most monumental war. Experience classic Call of Duty combat, the bonds of camaraderie, and the unforgiving nature of war. Go at it alone or grab your closest war buddies and take the battle online!',
   platforms: [
@@ -54,7 +54,7 @@ final Game fc5 = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/fc5.jpg',
+      'https://imgur.com/OIJ7v0V.jpg',
   description:
       'Whether through coercion, starvation or forced baptisms, the cult will use every resource available to build a following in preparation of The Collapse. Committed to restoring freedom to Hope County, The Resistance has rallied together in order to stop the Father and his followers. And they’ll only succeed with your help.',
   platforms: [
@@ -74,7 +74,7 @@ final Game riseoftr = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/rotr.jpg',
+      'https://imgur.com/OIJ7v0V.jpg',
   description:
       'In Rise of the Tomb Raider, Lara uncovers an ancient mystery that places her in the cross-hairs of a ruthless organization. Featuring epic, high-octane action moments set in the most beautiful hostile environments on earth, Rise of the Tomb Raider delivers a cinematic survival action adventure where you will join Lara Croft on her first tomb raiding expedition as she seeks to discover the secret of immortality.',
   platforms: [
@@ -94,7 +94,7 @@ final Game detroitbh = Game(
     box:
         'https://imgur.com/79WHBIc.jpg',
     cover:
-        'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/detroitbh.jpg',
+        'https://imgur.com/OIJ7v0V.jpg',
     description:
         'Travel to the near-future metropolis of Detroit – a city rejuvenated by an exciting technological development: androids. Witness your brave new world turn to chaos as you take on the role of Kara, a female android trying to find her own place in a turbulent social landscape.',
     platforms: [
@@ -113,7 +113,7 @@ final Game shadowcolossus = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/shadowcolossus.jpg',
+      'https://imgur.com/OIJ7v0V.jpg',
   description:
       'Armed with only a sword and a bow, journey through ancient lands to seek out gigantic beasts.',
   platforms: [
@@ -133,7 +133,7 @@ final Game agentsofmayhem = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/agentsofmayhem.jpg',
+      'https://imgur.com/OIJ7v0V.jpg',
   description:
       'In Agents of Mayhem, a nefarious plot is set in motion to build a world-altering device that will grant unrivaled power to the supervillain organization known as LEGION. Pick your squad of 3 highly skilled and iconic characters from a roster of 12 uniquely designed MAYHEM agents and get ready to save the world!',
   platforms: [
@@ -153,7 +153,7 @@ final Game fallout4 = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/fallout4.jpg',
+      'https://imgur.com/OIJ7v0V.jpg',
   description:
       'As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home.',
   platforms: [
@@ -173,7 +173,7 @@ final Game mgsurvive = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/mgsurvive.jpg',
+      'https://imgur.com/OIJ7v0V.jpg',
   description:
       'Create your own character and learn to survive. Scavenge resources, craft weapons, build a base camp and explore the unknown while developing the survival skills necessary in this hostile environment.',
   platforms: [
@@ -193,7 +193,7 @@ final Game seaofthieves = Game(
   box:
       'https://imgur.com/79WHBIc.jpg',
   cover:
-      'https://raw.githubusercontent.com/searchy2/FlutterGames/master/images/cover/seaofthieves.jpg',
+      'https://imgur.com/OIJ7v0V.jpg',
   description:
       'Lorem ipsum luctus torquent mollis vulputate fermentum luctus hendrerit sodales massa, non habitasse id consectetur aliquam dui non curabitur dolor vitae, duis non fames mollis lectus eget per lorem magna.',
   platforms: [
