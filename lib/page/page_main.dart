@@ -5,6 +5,8 @@ import 'package:stream_games/icons.dart';
 import 'package:stream_games/page/page_coming_soon.dart';
 import 'package:stream_games/page/page_games.dart';
 
+import 'busca/busca_page.dart';
+
 class MainPage extends StatefulWidget {
   @override
   _MainPageState createState() => _MainPageState();
@@ -98,7 +100,7 @@ class _MainPageState extends State<MainPage> {
       case BottomMenu.home:
         return GamesPage();
       case BottomMenu.categoria:
-        return ComingSoonPage(menuIcon(_layoutSelection));
+        return Buscapage();
       case BottomMenu.browse:
         return ComingSoonPage(menuIcon(_layoutSelection));
       case BottomMenu.my:
