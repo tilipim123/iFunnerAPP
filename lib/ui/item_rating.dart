@@ -42,7 +42,7 @@ class RatingInformation extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(top: 4),
           child: Text(
-            'Rating',
+            'Avaliação',
             style: ratingCaptionStyle,
           ),
         ),

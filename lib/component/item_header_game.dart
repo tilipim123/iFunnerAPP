@@ -57,9 +57,9 @@ class GameDetailHeader extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 12),
                         child: Row(
-                          children: [
-                            OutlineButton(
-                              onPressed: () => {},
+                                      children: [
+                                      OutlineButton(
+                                      onPressed: () => {},
                               child: Row(
                                 children: <Widget>[
                                   Icon(
@@ -69,46 +69,22 @@ class GameDetailHeader extends StatelessWidget {
                                         .display2
                                         .color,
                                   ),
-                                  Text("Trailer",
+                                  Text("Apresentação",
                                       style:
-                                          Theme.of(context).textTheme.display2),
+                                      Theme.of(context).textTheme.display2),
                                 ],
                               ),
                               padding: const EdgeInsets.fromLTRB(6, 0, 12, 0),
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(30)),
                               borderSide:
-                                  BorderSide(color: Colors.black54, width: 2),
+                              BorderSide(color: Colors.black54, width: 2),
                               highlightColor: Colors.white70,
                               splashColor: Colors.black12,
                               highlightElevation: 0,
                             ),
-                            Padding(padding: EdgeInsets.only(left: 8)),
-                            OutlineButton(
-                              onPressed: () => {},
-                              child: Row(
-                                children: <Widget>[
-                                  Icon(
-                                    plusIcon,
-                                    color: Theme.of(context)
-                                        .textTheme
-                                        .display2
-                                        .color,
-                                  ),
-                                  Text("Wishlist",
-                                      style:
-                                          Theme.of(context).textTheme.display2),
-                                ],
-                              ),
-                              padding: const EdgeInsets.fromLTRB(6, 0, 12, 0),
-                              shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(30)),
-                              borderSide:
-                                  BorderSide(color: Colors.black54, width: 2),
-                              highlightColor: Colors.white70,
-                              splashColor: Colors.black12,
-                              highlightElevation: 0,
-                            ),
+
+
                           ],
                         ),
                       ),

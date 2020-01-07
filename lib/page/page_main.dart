@@ -51,7 +51,7 @@ class _MainPageState extends State<MainPage> {
                         alignment: Alignment.bottomRight,
                         child: CircleAvatar(
                           radius: 8,
-                          backgroundColor: Colors.blue,
+                          backgroundColor: Colors.deepOrangeAccent,
                           child: Text("0",
                               style:
                                   TextStyle(color: Colors.white, fontSize: 10)),
