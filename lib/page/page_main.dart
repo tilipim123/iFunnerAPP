@@ -74,10 +74,10 @@ class _MainPageState extends State<MainPage> {
                 icon: movieOutlineIcon,
                 iconSelected: movieIcon,
                 bottomMenu: BottomMenu.categoria),
-            _buildMenuItem(
+            /*_buildMenuItem(
                 icon: browseOutlineIcon,
                 iconSelected: browseIcon,
-                bottomMenu: BottomMenu.browse),
+                bottomMenu: BottomMenu.browse),*/
             _buildMenuItem(
                 icon: profileOutlineIcon,
                 iconSelected: profileIcon,
