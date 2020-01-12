@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'buscas_recentes.dart';
+import 'buscas_categorias.dart';
 
 class Buscapage extends StatelessWidget {
   @override
@@ -21,7 +21,7 @@ class Buscapage extends StatelessWidget {
               ),
             ),
           ),
-        Buscasrecentes(),
+        Categoria(),
       ],
     );
   }

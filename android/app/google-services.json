@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1089746268358",
+    "firebase_url": "https://ifunnerapp.firebaseio.com",
+    "project_id": "ifunnerapp",
+    "storage_bucket": "ifunnerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089746268358:android:0f83e19e47d4bc3e3867c7",
+        "android_client_info": {
+          "package_name": "stream.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089746268358-9f0hsfbs9goad028ij1cc0q1c0t2rbg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBweWWITp7ytOCMMyQjCJnJgwHvSyoURBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089746268358-9f0hsfbs9goad028ij1cc0q1c0t2rbg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
