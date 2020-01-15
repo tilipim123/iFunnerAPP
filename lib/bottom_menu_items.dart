@@ -4,7 +4,7 @@ import 'package:stream_games/icons.dart';
 enum BottomMenu {
   home,
   categoria,
-  browse,
+  //browse,
   my,
   more,
 }
@@ -15,8 +15,8 @@ String menuItemName(BottomMenu layoutType) {
       return 'Serviços';
     case BottomMenu.categoria:
       return 'Busca';
-    case BottomMenu.browse:
-      return 'Localização';
+    /*case BottomMenu.browse:
+      return 'Localização';*/
     case BottomMenu.my:
       return 'Perfil';
     case BottomMenu.more:
@@ -32,8 +32,8 @@ IconData menuIcon(BottomMenu layoutType) {
       return controllerIcon;
     case BottomMenu.categoria:
       return movieIcon;
-    case BottomMenu.browse:
-      return browseIcon;
+    /*case BottomMenu.browse:
+      return browseIcon;*/
     case BottomMenu.my:
       return profileIcon;
     case BottomMenu.more:

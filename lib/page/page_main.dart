@@ -6,6 +6,7 @@ import 'package:stream_games/page/page_coming_soon.dart';
 import 'package:stream_games/page/page_games.dart';
 
 import 'busca/busca_page.dart';
+import 'user/Screen User/page_user.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -101,10 +102,10 @@ class _MainPageState extends State<MainPage> {
         return GamesPage();
       case BottomMenu.categoria:
         return Buscapage();
-      case BottomMenu.browse:
-        return ComingSoonPage(menuIcon(_layoutSelection));
+      /*case BottomMenu.browse:
+        return ComingSoonPage(menuIcon(_layoutSelection));*/
       case BottomMenu.my:
-        return ComingSoonPage(menuIcon(_layoutSelection));
+        return Screenuser();
       case BottomMenu.more:
         return ComingSoonPage(menuIcon(_layoutSelection));
     }
@@ -147,13 +148,13 @@ class _MainPageState extends State<MainPage> {
       case 1:
         _onLayoutSelected(BottomMenu.categoria);
         break;
-      case 2:
+      /*case 2:
         _onLayoutSelected(BottomMenu.browse);
-        break;
-      case 3:
+        break;*/
+      case 2:
         _onLayoutSelected(BottomMenu.my);
         break;
-      case 4:
+      case 3:
         _onLayoutSelected(BottomMenu.more);
         break;
     }
