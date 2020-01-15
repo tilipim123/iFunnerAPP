@@ -48,6 +48,5 @@ class _ScreenuserState extends State<Screenuser> {
         ),
       ),
     );
-    Myitens();
   }
 }
