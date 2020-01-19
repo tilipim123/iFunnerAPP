@@ -6,31 +6,35 @@ class Myuser extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: ListView(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(6),
         children: <Widget>[
           ListTile(
             leading: Icon(Icons.shopping_cart),
-            title: Text('Compras',
+            trailing: Icon(Icons.arrow_right),
+            title: Text('Historico de Compras',
               style: TextStyle(color: Colors.black87),
             ),
             onTap: (){},
           ),
           ListTile(
-            leading: Icon(Icons.credit_card),
-            title: Text('Formas de Pagamento',
+            leading: Icon(Icons.clear_all),
+            trailing: Icon(Icons.arrow_right),
+            title: Text('Parcelas',
             style: TextStyle(color: Colors.black87),
             ),
             onTap: (){},
           ),
           ListTile(
-            leading: Icon(Icons.location_on),
-            title: Text('Endereço',
+            leading: Icon(Icons.credit_card),
+            trailing: Icon(Icons.arrow_right),
+            title: Text('Forma de pagamento',
               style: TextStyle(color: Colors.black87),
             ),
             onTap: (){},
           ),
           ListTile(
             leading: Icon(Icons.settings),
+            trailing: Icon(Icons.arrow_right),
             title: Text('Configurações',
               style: TextStyle(color: Colors.black38),
             ),
@@ -38,6 +42,7 @@ class Myuser extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.help),
+            trailing: Icon(Icons.arrow_right),
             title: Text('Ajuda',
               style: TextStyle(color: Colors.black38),
             ),
@@ -45,6 +50,7 @@ class Myuser extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.notifications),
+            trailing: Icon(Icons.arrow_right),
             title: Text('Notificação',
               style: TextStyle(color: Colors.black38),
             ),
