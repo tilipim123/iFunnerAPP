@@ -56,6 +56,14 @@ class Myuser extends StatelessWidget {
             ),
             onTap: (){},
           ),
+          ListTile(
+            leading: Icon(Icons.close),
+            trailing: Icon(Icons.arrow_right),
+            title: Text('Sair',
+              style: TextStyle(color: Colors.black38),
+            ),
+            onTap: (){},
+          ),
         ],
       ),
     );
