@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stream_games/page/user/Cadastro/page_cadastro.dart';
 
 class SignUpButton extends StatelessWidget {
 
@@ -9,6 +10,9 @@ class SignUpButton extends StatelessWidget {
         top: 160,
       ),
       onPressed: (){
+        Navigator.of(context).pushReplacement(
+         MaterialPageRoute(builder: (context) => Cadastrologin())
+        );
       },
       child: Text("Não Possui um conta? Cadastre-se",
       textAlign: TextAlign.center,
@@ -17,7 +21,8 @@ class SignUpButton extends StatelessWidget {
         color: Colors.black,
         fontSize: 16,
         letterSpacing: 0.5,
-      ),),
+      ),
+      ),
     );
   }
 }
