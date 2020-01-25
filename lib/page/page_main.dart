@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stream_games/bottom_menu_items.dart';
 import 'package:stream_games/icons.dart';
-import 'package:stream_games/page/page_coming_soon.dart';
+import 'package:stream_games/page/favorites/favorites_page.dart';
 import 'package:stream_games/page/page_games.dart';
 
 import 'busca/busca_page.dart';
@@ -80,13 +80,13 @@ class _MainPageState extends State<MainPage> {
                 iconSelected: browseIcon,
                 bottomMenu: BottomMenu.browse),*/
             _buildMenuItem(
-                icon: profileOutlineIcon,
-                iconSelected: profileIcon,
-                bottomMenu: BottomMenu.my),
-            _buildMenuItem(
                 icon: moreOutlineIcon,
                 iconSelected: moreIcon,
-                bottomMenu: BottomMenu.more),
+                bottomMenu: BottomMenu.favorites),
+            _buildMenuItem(
+                icon: profileOutlineIcon,
+                iconSelected: profileIcon,
+                bottomMenu: BottomMenu.perfil),
           ],
           onTap: _onSelectMenuItem,
         ),
@@ -104,10 +104,10 @@ class _MainPageState extends State<MainPage> {
         return Buscapage();
       /*case BottomMenu.browse:
         return ComingSoonPage(menuIcon(_layoutSelection));*/
-      case BottomMenu.my:
+      case BottomMenu.favorites:
+        return FavoritesPage();
+      case BottomMenu.perfil:
         return Screenuser();
-      case BottomMenu.more:
-        return ComingSoonPage(menuIcon(_layoutSelection));
     }
     return null;
   }
@@ -137,7 +137,7 @@ class _MainPageState extends State<MainPage> {
   }
 
   Color _setMenuItemColor({BottomMenu bottomMenu}) {
-    return _layoutSelection == bottomMenu ? Colors.blueAccent : Colors.grey;
+    return _layoutSelection == bottomMenu ? Colors.deepOrangeAccent : Colors.black;
   }
 
   void _onSelectMenuItem(int index) {
@@ -152,10 +152,10 @@ class _MainPageState extends State<MainPage> {
         _onLayoutSelected(BottomMenu.browse);
         break;*/
       case 2:
-        _onLayoutSelected(BottomMenu.my);
+        _onLayoutSelected(BottomMenu.favorites);
         break;
       case 3:
-        _onLayoutSelected(BottomMenu.more);
+        _onLayoutSelected(BottomMenu.perfil);
         break;
     }
   }

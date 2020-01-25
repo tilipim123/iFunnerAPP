@@ -5,8 +5,8 @@ enum BottomMenu {
   home,
   categoria,
   //browse,
-  my,
-  more,
+  favorites,
+  perfil,
 }
 
 String menuItemName(BottomMenu layoutType) {
@@ -17,10 +17,10 @@ String menuItemName(BottomMenu layoutType) {
       return 'Busca';
     /*case BottomMenu.browse:
       return 'Localização';*/
-    case BottomMenu.my:
+    case BottomMenu.favorites:
+      return 'Favoritos';
+    case BottomMenu.perfil:
       return 'Perfil';
-    case BottomMenu.more:
-      return 'Mais';
     default:
       return '';
   }
@@ -34,10 +34,10 @@ IconData menuIcon(BottomMenu layoutType) {
       return movieIcon;
     /*case BottomMenu.browse:
       return browseIcon;*/
-    case BottomMenu.my:
-      return profileIcon;
-    case BottomMenu.more:
+    case BottomMenu.favorites:
       return moreIcon;
+    case BottomMenu.perfil:
+      return profileIcon;
     default:
       return null;
   }
