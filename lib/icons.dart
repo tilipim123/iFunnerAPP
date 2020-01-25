@@ -3,9 +3,9 @@ import 'package:flutter/widgets.dart';
 const String cupertinoFamily = 'CupertinoIcons';
 const String cupertinoPackage = 'cupertino_icons';
 
-const controllerIcon = const IconData(62587,
+const controllerIcon = const IconData(62535,
     fontFamily: cupertinoFamily, fontPackage: cupertinoPackage);
-const controllerOutlineIcon = const IconData(62587,
+const controllerOutlineIcon = const IconData(62535,
     fontFamily: cupertinoFamily, fontPackage: cupertinoPackage);
 const movieIcon = const IconData(62629,
     fontFamily: cupertinoFamily, fontPackage: cupertinoPackage);
