@@ -41,10 +41,10 @@ class _loginState extends State<login>
                 Column(
                   children: <Widget>[
                     Padding(
-                      padding: EdgeInsets.only(top: 70, bottom: 30),
+                      padding: EdgeInsets.only(top: 40, bottom: 5),
                       child: Image.asset("assets/ifunnerclaro.png",
-                      width: 230,
-                      height: 230,
+                      width: 220,
+                      height: 220,
                       fit: BoxFit.contain,),
                     ),
                     FormContainer(),
