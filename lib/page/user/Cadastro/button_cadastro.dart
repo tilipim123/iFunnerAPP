@@ -23,7 +23,7 @@ class Buttoncadastro extends StatelessWidget {
             decoration: BoxDecoration(color: Colors.deepOrange,
                 borderRadius: BorderRadius.all(Radius.circular(20.0))
             ),
-            child: Text("Login",
+            child: Text("Cadastrar",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 20,
