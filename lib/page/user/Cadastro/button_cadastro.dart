@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stream_games/page/page_main.dart';
 
@@ -8,20 +9,19 @@ class Buttoncadastro extends StatelessWidget {
   Buttoncadastro({this.controller});
 
   @override
-  Widget build(BuildContext context) {
+  Widget _builderAnimation(BuildContext context, Widget child) {
     return Padding(
-      padding: EdgeInsets.only(
-        bottom: 40,
-      ),
+      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 50),
       child: InkWell(
-        onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (context) => MainPage())
+        onTap: ()=> Navigator.push(context, MaterialPageRoute
+          (builder: (context) => MainPage())
         ),
         child: Container(
-            width: 300,
+            width: 100,
             height: 60,
             alignment: Alignment.center,
             decoration: BoxDecoration(color: Colors.deepOrange,
-                borderRadius: BorderRadius.all(Radius.circular(20.0))
+                borderRadius: BorderRadius.all(Radius.circular(25))
             ),
             child: Text("Cadastrar",
               style: TextStyle(
@@ -32,6 +32,13 @@ class Buttoncadastro extends StatelessWidget {
               ),)
         ),
       ),
+    );
+  }
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedBuilder(
+      animation: controller,
+      builder: _builderAnimation,
     );
   }
 }

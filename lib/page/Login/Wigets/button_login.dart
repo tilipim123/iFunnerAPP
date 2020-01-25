@@ -20,7 +20,7 @@ class ButtonLogin extends StatelessWidget {
           height: 60,
           alignment: Alignment.center,
           decoration: BoxDecoration(color: Colors.deepOrange,
-          borderRadius: BorderRadius.all(Radius.circular(20.0))
+          borderRadius: BorderRadius.all(Radius.circular(25))
           ),
           child: Text("Login",
           style: TextStyle(

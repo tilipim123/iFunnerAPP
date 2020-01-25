@@ -63,7 +63,9 @@ class Myuser extends StatelessWidget {
             title: Text('Sair',
               style: TextStyle(color: Colors.black38),
             ),
-            onTap: (){},
+            onTap: ()=> Navigator.push(context, MaterialPageRoute
+              (builder: (context) => login())
+            ),
           ),
         ],
       ),

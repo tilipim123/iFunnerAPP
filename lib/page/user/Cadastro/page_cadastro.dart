@@ -40,10 +40,11 @@ class _CadastrologinState extends State<Cadastrologin>
           padding: EdgeInsets.zero,
           children: <Widget>[
             Stack(
+              alignment: Alignment.bottomCenter,
               children: <Widget>[
                 Column(
                   children: <Widget>[
-                    Padding(padding: EdgeInsets.only(top: 50, bottom: 1),
+                    Padding(padding: EdgeInsets.only(top: 20, bottom: 1),
                     child: Image.asset("assets/ifunnerclaro.png",
                       width: 230,
                       height: 230,
@@ -53,11 +54,11 @@ class _CadastrologinState extends State<Cadastrologin>
                     Formcadastro(),
                   ],
                 ),
-                Buttoncadastro(
-                  controller: _animationController.view
-                ),
               ],
-            )
+            ),
+            Buttoncadastro(
+                controller: _animationController.view
+            ),
           ],
         ),
       ),
