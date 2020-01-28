@@ -11,7 +11,6 @@ class Cadastrologin extends StatefulWidget {
 class _CadastrologinState extends State<Cadastrologin>
     with SingleTickerProviderStateMixin
 {
-
   AnimationController _animationController;
 
 

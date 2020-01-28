@@ -14,7 +14,7 @@ class CadastroValidator{
 
   final validateCpf = StreamTransformer<String, String>.fromHandlers(
     handleData: (cpf, sink){
-      if(cpf.length < 11){
+      if(cpf.length == 11){
         sink.add(cpf);
       } else{
         sink.addError("Digite o CPF correto");
@@ -24,10 +24,10 @@ class CadastroValidator{
 
   final validatePassword = StreamTransformer<String, String>.fromHandlers(
     handleData: (password, sink){
-      if(password.length < 6){
+      if(password.length > 6){
         sink.add(password);
       } else{
-        sink.addError("Senha invalida! A senha só pode ser acima de 6 digitos");
+        sink.addError("Senha invalida! Minimo é 6");
       }
     }
   );

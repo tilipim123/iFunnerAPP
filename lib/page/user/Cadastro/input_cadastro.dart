@@ -6,8 +6,9 @@ class Inputcadastro extends StatelessWidget {
   final bool obscure;
   final IconData icon;
   final Stream<String> stream;
+  final Function(String) onChanged;
 
-  Inputcadastro({this.hint, this.obscure, this.icon, this.stream});
+  Inputcadastro({this.hint, this.obscure, this.icon, this.stream, this.onChanged});
 
   @override
   Widget build(BuildContext context) {
@@ -24,6 +25,7 @@ class Inputcadastro extends StatelessWidget {
             )
           ),
           child: TextFormField(
+            onChanged: onChanged,
             obscureText: obscure,
             style: TextStyle(color: Colors.black87,
             ),
