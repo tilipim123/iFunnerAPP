@@ -24,44 +24,18 @@ class _MainPageState extends State<MainPage> {
       child: Scaffold(
         appBar: AppBar(
           elevation: 0,
-          centerTitle: false,
+          centerTitle: true,
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Row(
             children: [
               Text(
                 menuItemName(_layoutSelection),
-                style: Theme.of(context).textTheme.title,
+                style: TextStyle(color: Colors.black, fontFamily: "Roboto", fontWeight: FontWeight.w700),
               ),
-              Padding(padding: EdgeInsets.only(right: 8)),
-              Icon(menuIcon(_layoutSelection), size: 28, color: Colors.white),
             ],
           ),
-          actions: <Widget>[
-            Center(
-              child: IconButton(
-                  onPressed: () => {},
-                  icon: Stack(
-                    children: <Widget>[
-                      Align(
-                        alignment: Alignment.center,
-                        child: Icon(Icons.shopping_cart,
-                            size: 28, color: Colors.black),
-                      ),
-                      Align(
-                        alignment: Alignment.bottomRight,
-                        child: CircleAvatar(
-                          radius: 8,
-                          backgroundColor: Colors.deepOrangeAccent,
-                          child: Text("0",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 10)),
-                        ),
-                      ),
-                    ],
-                  )),
-            ),
-          ],
+
         ),
         bottomNavigationBar: CupertinoTabBar(
           activeColor: Colors.blueAccent,
@@ -80,7 +54,7 @@ class _MainPageState extends State<MainPage> {
                 iconSelected: browseIcon,
                 bottomMenu: BottomMenu.browse),*/
             _buildMenuItem(
-                icon: moreOutlineIcon,
+                icon: moreIcon,
                 iconSelected: moreIcon,
                 bottomMenu: BottomMenu.favorites),
             _buildMenuItem(

@@ -14,7 +14,6 @@ class _GamesPageState extends State<GamesPage> {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 6, 8, 8),

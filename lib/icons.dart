@@ -19,9 +19,9 @@ const profileIcon = const IconData(0xf41a,
     fontFamily: cupertinoFamily, fontPackage: cupertinoPackage);
 const profileOutlineIcon = const IconData(0xf419,
     fontFamily: cupertinoFamily, fontPackage: cupertinoPackage);
-const moreIcon = const IconData(0xf498,
+const moreIcon = const IconData(62606,
     fontFamily: cupertinoFamily, fontPackage: cupertinoPackage);
-const moreOutlineIcon = const IconData(0xf499,
+const moreOutlineIcon = const IconData(62606,
     fontFamily: cupertinoFamily, fontPackage: cupertinoPackage);
 const plusIcon = const IconData(0xf489,
     fontFamily: cupertinoFamily, fontPackage: cupertinoPackage);
