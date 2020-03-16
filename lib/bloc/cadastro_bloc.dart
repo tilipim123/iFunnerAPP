@@ -1,5 +1,4 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
-import 'package:flutter/foundation.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:stream_games/bloc/validator_cadastro.dart';
 
@@ -13,6 +12,9 @@ class CadastroBloc extends BlocBase with CadastroValidator{
   Stream<String> get outCpf => _cpfController.stream.transform(validateCpf);
   Stream<String> get outPassword => _passwordController.stream.transform(validatePassword);
 
+  Stream<bool> get outSubmitValid => Rx.combineLatest3(
+      outEmail, outPassword, outCpf, (a, b, c) => true
+  );
 
   Function(String) get changeEmail => _emailController.sink.add;
   Function(String) get changeCPF => _cpfController.sink.add;
@@ -25,4 +27,6 @@ class CadastroBloc extends BlocBase with CadastroValidator{
   _cpfController.close();
   _passwordController.close();
 }
+
+
 }

@@ -7,8 +7,9 @@ class Inputcadastro extends StatelessWidget {
   final IconData icon;
   final Stream<String> stream;
   final Function(String) onChanged;
+  final operator;
 
-  Inputcadastro({this.hint, this.obscure, this.icon, this.stream, this.onChanged});
+  Inputcadastro({this.hint, this.obscure, this.icon, this.stream, this.onChanged, this.operator});
 
   @override
   Widget build(BuildContext context) {

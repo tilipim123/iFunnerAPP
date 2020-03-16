@@ -13,7 +13,6 @@ class _CadastrologinState extends State<Cadastrologin>
 {
   AnimationController _animationController;
 
-
   @override
   void initState() {
     super.initState();
@@ -23,7 +22,6 @@ class _CadastrologinState extends State<Cadastrologin>
       duration: Duration(seconds: 2)
     );
   }
-
 
   @override
   void dispose() {
@@ -55,9 +53,9 @@ class _CadastrologinState extends State<Cadastrologin>
                 ),
               ],
             ),
-            Buttoncadastro(
+            /*Buttoncadastro(
                 controller: _animationController.view
-            ),
+            ),*/
           ],
         ),
       ),
