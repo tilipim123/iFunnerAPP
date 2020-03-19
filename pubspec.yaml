@@ -19,6 +19,8 @@ dependencies:
   bloc_pattern: ^2.5.1
   google_sign_in: ^4.1.4
   scoped_model: ^1.0.1
+  google_fonts: ^0.3.9
+  flutter_icons: ^1.0.0+1
 
 dev_dependencies:
   flutter_test:
