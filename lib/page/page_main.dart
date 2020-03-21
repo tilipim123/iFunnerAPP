@@ -4,7 +4,6 @@ import 'package:stream_games/bottom_menu_items.dart';
 import 'package:stream_games/icons.dart';
 import 'package:stream_games/page/favorites/favorites_page.dart';
 import 'package:stream_games/page/page_games.dart';
-
 import 'busca/busca_page.dart';
 import 'user/Screen User/page_user.dart';
 
@@ -22,21 +21,6 @@ class _MainPageState extends State<MainPage> {
       borderRadius: BorderRadius.circular(8),
       clipBehavior: Clip.hardEdge,
       child: Scaffold(
-        appBar: AppBar(
-          elevation: 0,
-          centerTitle: true,
-          backgroundColor: Colors.white,
-          automaticallyImplyLeading: false,
-          title: Row(
-            children: [
-              Text(
-                menuItemName(_layoutSelection),
-                style: TextStyle(color: Colors.black, fontFamily: "Roboto", fontWeight: FontWeight.w700),
-              ),
-            ],
-          ),
-
-        ),
         bottomNavigationBar: CupertinoTabBar(
           activeColor: Colors.blueAccent,
           backgroundColor: Colors.white70,

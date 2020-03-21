@@ -17,7 +17,7 @@ class _ScreenuserState extends State<Screenuser> {
       body: Column(
         children: <Widget>[
           Container(
-            height: 250,
+            height: 300,
             decoration: BoxDecoration(
                 color: Colors.grey[800],
                 borderRadius: BorderRadius.only(
@@ -38,7 +38,7 @@ class _ScreenuserState extends State<Screenuser> {
                           width: 40,
                           height: 40,
                           decoration: BoxDecoration(
-                            color: Color.fromARGB(255, 232, 96, 75),
+                            color: Colors.deepOrangeAccent,
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Icon(

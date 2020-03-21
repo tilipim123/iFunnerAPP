@@ -16,7 +16,7 @@ class _GamesPageState extends State<GamesPage> {
       child: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(16, 6, 8, 8),
+            padding: const EdgeInsets.fromLTRB(25, 40, 10, 10),
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

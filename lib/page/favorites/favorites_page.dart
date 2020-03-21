@@ -17,7 +17,7 @@ class _FavoritesPageState extends State<FavoritesPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(16, 6, 8, 8),
+            padding: const EdgeInsets.fromLTRB(25, 40, 10, 10),
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
