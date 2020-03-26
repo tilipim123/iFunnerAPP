@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:stream_games/page/user/Cadastro/button_cadastro.dart';
-
 import 'form_cadastro.dart';
 
 class Cadastrologin extends StatefulWidget {
@@ -53,9 +51,6 @@ class _CadastrologinState extends State<Cadastrologin>
                 ),
               ],
             ),
-            /*Buttoncadastro(
-                controller: _animationController.view
-            ),*/
           ],
         ),
       ),

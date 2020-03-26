@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "1089746268358",
-    "firebase_url": "https://ifunnerapp.firebaseio.com",
-    "project_id": "ifunnerapp",
-    "storage_bucket": "ifunnerapp.appspot.com"
+    "project_number": "93528049490",
+    "firebase_url": "https://appifunner.firebaseio.com",
+    "project_id": "appifunner",
+    "storage_bucket": "appifunner.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1089746268358:android:0f83e19e47d4bc3e3867c7",
+        "mobilesdk_app_id": "1:93528049490:android:4ebd67cbaf0ce196b2dc8b",
         "android_client_info": {
           "package_name": "stream.games"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1089746268358-9f0hsfbs9goad028ij1cc0q1c0t2rbg8.apps.googleusercontent.com",
+          "client_id": "93528049490-1ruvtmh6nc9oi2tkt1jr78dgk3tkuri0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stream.games",
+            "certificate_hash": "9704729263cc85f407c5ca3daca15ad7159d02c1"
+          }
+        },
+        {
+          "client_id": "93528049490-94q4ra97sh07o5tmfq7pk7ac07uhrerc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBweWWITp7ytOCMMyQjCJnJgwHvSyoURBk"
+          "current_key": "AIzaSyCRjKs0m6JjqvX9esbXqpgjpaKBx8hrZ7o"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1089746268358-9f0hsfbs9goad028ij1cc0q1c0t2rbg8.apps.googleusercontent.com",
+              "client_id": "93528049490-94q4ra97sh07o5tmfq7pk7ac07uhrerc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
