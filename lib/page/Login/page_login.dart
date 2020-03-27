@@ -43,6 +43,7 @@ class _loginState extends State<login> {
                             color: Colors.black54,
                             fontSize: 15
                         ),
+                        keyboardType: TextInputType.emailAddress,
                       ),
                       SizedBox(height: 15,
                       ),

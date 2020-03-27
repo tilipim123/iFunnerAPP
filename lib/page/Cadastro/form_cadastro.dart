@@ -143,9 +143,9 @@ class _FormcadastroState extends State<Formcadastro> {
           duration: Duration(seconds: 3),
         )
     );
-    Future.delayed(Duration(seconds: 2)).then((_){
-      Navigator.of(context).pop();
-    }
+    Future.delayed(Duration(seconds: 2)).then((_)=>
+      Navigator.push(context, MaterialPageRoute(builder: (context) => login())
+      )
     );
   }
   void _onFail(){
