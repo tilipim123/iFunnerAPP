@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:stream_games/controller/scroll_horizontal_game.dart';
 import 'package:stream_games/model/repository.dart';
 
-class FavoritesPage extends StatefulWidget {
-  FavoritesPage({Key key}) : super(key: key);
+class Favoritossreen extends StatefulWidget {
+  Favoritossreen({Key key}) : super(key: key);
 
   @override
   _FavoritesPageState createState() => _FavoritesPageState();
 }
 
-class _FavoritesPageState extends State<FavoritesPage> {
+class _FavoritesPageState extends State<Favoritossreen> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

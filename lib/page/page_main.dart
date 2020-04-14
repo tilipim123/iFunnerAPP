@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stream_games/bottom_menu_items.dart';
 import 'package:stream_games/icons.dart';
-import 'package:stream_games/page/favorites/favorites_page.dart';
-import 'package:stream_games/page/page_games.dart';
-import 'busca/busca_page.dart';
+import 'package:stream_games/page/favorites/Favoritossreen.dart';
+import 'busca/Buscasreen.dart';
+import 'home/Homescreen.dart';
 import 'user/Screen User/page_user.dart';
 
 class MainPage extends StatefulWidget {
@@ -57,13 +57,13 @@ class _MainPageState extends State<MainPage> {
   Widget _buildPage() {
     switch (_layoutSelection) {
       case BottomMenu.home:
-        return GamesPage();
+        return Homescreen();
       case BottomMenu.categoria:
-        return Buscapage();
+        return Buscasreen();
       /*case BottomMenu.browse:
         return ComingSoonPage(menuIcon(_layoutSelection));*/
       case BottomMenu.favorites:
-        return FavoritesPage();
+        return Favoritossreen();
       case BottomMenu.perfil:
         return Screenuser();
     }

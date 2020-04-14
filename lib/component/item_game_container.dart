@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stream_games/model/game.dart';
-import "package:stream_games/page/page_game_details.dart";
+import "package:stream_games/page/servicos_details.dart";
 import "package:stream_games/ui/item_game_box.dart";
 
 class GameContainerItem extends StatelessWidget {
@@ -47,7 +47,7 @@ class GameContainerItem extends StatelessWidget {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (c) {
-          return GameDetailsPage(game);
+          return ServicoDetailsPage(game);
         },
       ),
     );

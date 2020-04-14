@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:stream_games/controller/scroll_horizontal_game.dart';
 import 'package:stream_games/model/repository.dart';
 
-class GamesPage extends StatefulWidget {
-  GamesPage({Key key}) : super(key: key);
+class Homescreen extends StatefulWidget {
+  Homescreen({Key key}) : super(key: key);
 
   @override
   _GamesPageState createState() => _GamesPageState();
 }
 
-class _GamesPageState extends State<GamesPage> {
+class _GamesPageState extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

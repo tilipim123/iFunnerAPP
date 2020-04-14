@@ -5,8 +5,8 @@ import 'package:stream_games/component/item_header_game.dart';
 import 'package:stream_games/controller/scroll_horizontal_screenshots.dart';
 import 'package:stream_games/model/game.dart';
 
-class GameDetailsPage extends StatefulWidget {
-  GameDetailsPage(this.game, {Key key}) : super(key: key);
+class ServicoDetailsPage extends StatefulWidget {
+  ServicoDetailsPage(this.game, {Key key}) : super(key: key);
 
   final Game game;
 
@@ -14,7 +14,7 @@ class GameDetailsPage extends StatefulWidget {
   _GameDetailsPageState createState() => _GameDetailsPageState();
 }
 
-class _GameDetailsPageState extends State<GameDetailsPage> {
+class _GameDetailsPageState extends State<ServicoDetailsPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
