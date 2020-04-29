@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:stream_games/controller/scroll_horizontal_game.dart';
 import 'package:stream_games/model/repository.dart';
 
+const request = "https://ifunner-server.herokuapp.com/Favoritos";
 class Favoritossreen extends StatefulWidget {
   Favoritossreen({Key key}) : super(key: key);
 

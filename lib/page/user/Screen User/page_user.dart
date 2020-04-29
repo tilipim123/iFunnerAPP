@@ -19,7 +19,7 @@ class _ScreenuserState extends State<Screenuser> {
           Container(
             height: 300,
             decoration: BoxDecoration(
-                color: Colors.grey[800],
+                color: Colors.grey[300],
                 borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(25),
                     bottomRight: Radius.circular(25))),
@@ -37,31 +37,37 @@ class _ScreenuserState extends State<Screenuser> {
                         Container(
                           width: 40,
                           height: 40,
-                          decoration: BoxDecoration(
+                          child: RaisedButton(
                             color: Colors.deepOrangeAccent,
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: Icon(
-                            Feather.settings,
-                            color: Colors.white,
+                            shape:  new RoundedRectangleBorder(borderRadius:
+                            new BorderRadius.circular(8),
+                            ),
+                            onPressed: (){},
+                            child: Icon(
+                              Feather.settings,
+                              color: Colors.white,
+                            ),
+                              padding: EdgeInsets.all(5)
                           ),
                         ),
                         Container(
                           width: 40,
                           height: 40,
-                          decoration: BoxDecoration(
-                            color: Colors.grey[600],
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: Center(
-                            child: Text(
-                              '0',
-                              textAlign: TextAlign.center,
-                              style: GoogleFonts.oxygen(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 16),
-                          ),
+                          child: RaisedButton(
+                            shape:  new RoundedRectangleBorder(borderRadius:
+                            new BorderRadius.circular(8)
+                            ),
+                            onPressed: (){},
+                            child: Center(
+                              child: Text(
+                                '0',
+                                textAlign: TextAlign.center,
+                                style: GoogleFonts.oxygen(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 16),
+                            ),
+                            ),
                           ),
                         ),
                       ],
@@ -77,8 +83,8 @@ class _ScreenuserState extends State<Screenuser> {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(15),
                         child: Container(
-                            height: 80,
-                            width: 80,
+                            height: 65,
+                            width: 65,
                             child: Image.asset("assets/ifunnerclaro.jpg"),
                         ),
                       ),
@@ -88,7 +94,7 @@ class _ScreenuserState extends State<Screenuser> {
                       Text(
                         'Fulado da Silva',
                         style: GoogleFonts.oxygen(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontWeight: FontWeight.bold,
                             fontSize: 18),
                       ),
@@ -98,7 +104,7 @@ class _ScreenuserState extends State<Screenuser> {
                       Text(
                         'Editar Perfil',
                         style: GoogleFonts.oxygen(
-                            color: Colors.white, fontSize: 14),
+                            color: Colors.black, fontSize: 14),
                       ),
                     ],
                   ),
