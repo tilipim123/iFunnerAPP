@@ -14,6 +14,14 @@ class Myuser extends StatelessWidget {
             padding: EdgeInsets.all(6),
             children: <Widget>[
               ListTile(
+                leading: Icon(Icons.person),
+                trailing: Icon(Icons.arrow_right),
+                title: Text('Perfil',
+                  style: TextStyle(color: Colors.black87),
+                ),
+                onTap: (){},
+              ),
+              ListTile(
                 leading: Icon(Icons.shopping_cart),
                 trailing: Icon(Icons.arrow_right),
                 title: Text('Historico de Compras',

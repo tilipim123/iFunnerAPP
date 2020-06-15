@@ -1,44 +1,28 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:stream_games/controller/scroll_horizontal_game.dart';
-import 'package:stream_games/model/repository.dart';
+import 'package:http/http.dart' as http;
 
 const request = "https://ifunner-server.herokuapp.com/Favoritos";
-class Favoritossreen extends StatefulWidget {
-  Favoritossreen({Key key}) : super(key: key);
 
-  @override
-  _FavoritesPageState createState() => _FavoritesPageState();
+Future<Map> getData() async {
+  http.Response response = await http.get(request);
+  return json.decode(response.body);
 }
 
-class _FavoritesPageState extends State<Favoritossreen> {
+class Favoritossreen extends StatefulWidget {
+  @override
+  _FavoritossreenState createState() => _FavoritossreenState();
+}
+
+class _FavoritossreenState extends State<Favoritossreen> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(25, 40, 10, 10),
-            child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  InkWell(
-                    onTap: () => {},
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 8, vertical: 4),
-
-                    ),
-                  ),
-                ]),
-          ),
-          HorizontalGameController(newGamesList),
-          Divider(height: 2, indent: 8),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 12, 8, 8),
-          ),
-        ],
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Favoritos", style: TextStyle(color: Colors.white, fontSize: 25),),
+        backgroundColor: Colors.transparent,
       ),
     );
   }
 }
+
