@@ -5,7 +5,7 @@ import 'package:stream_games/icons.dart';
 import 'package:stream_games/page/favorites/Favoritossreen.dart';
 import 'busca/Buscasreen.dart';
 import 'home/Homescreen.dart';
-import 'user/Screen User/page_user.dart';
+import 'user/Screen_User/page_user.dart';
 
 class MainPage extends StatefulWidget {
   @override

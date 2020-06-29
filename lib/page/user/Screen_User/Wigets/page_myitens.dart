@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
+import 'package:stream_games/page/Ajuda/page_ajuda.dart';
 import 'package:stream_games/page/Login/page_login.dart';
 import 'package:stream_games/model/user_model.dart';
+import 'package:stream_games/page/Parcelas/page_parcelas.dart';
 
 class Myuser extends StatelessWidget {
   @override
@@ -35,7 +37,11 @@ class Myuser extends StatelessWidget {
                 title: Text('Parcelas',
                   style: TextStyle(color: Colors.black87),
                 ),
-                onTap: (){},
+                onTap: (){
+                  Navigator.of(context).push(
+                      MaterialPageRoute (builder: (context) => SreenParcelas())
+                  );
+                },
               ),
               ListTile(
                 leading: Icon(Icons.credit_card),
@@ -59,7 +65,11 @@ class Myuser extends StatelessWidget {
                 title: Text('Ajuda',
                   style: TextStyle(color: Colors.black38),
                 ),
-                onTap: (){},
+                onTap: (){
+                  Navigator.of(context).push(
+                      MaterialPageRoute (builder: (context) => ScreenAjuda())
+                  );
+                },
               ),
               ListTile(
                 leading: Icon(Icons.notifications),

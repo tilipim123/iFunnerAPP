@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'Wigets/page_myitens.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Screenuser extends StatefulWidget {
   @override
@@ -12,8 +13,15 @@ class _ScreenuserState extends State<Screenuser> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Perfil", style: TextStyle(color: Colors.white, fontSize: 25),),
         backgroundColor: Colors.transparent,
+        elevation: 0.0,
+        title: Text("Perfil", style: GoogleFonts.oxygen(
+            color: Colors.black87,
+            fontWeight: FontWeight.bold,
+            fontSize: 23),
+        ),
+        leading: Icon(Icons.image, color: Colors.black87,),
+        //centerTitle: true,
       ),
       body: Myuser(),
     );

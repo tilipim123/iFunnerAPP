@@ -29,7 +29,8 @@ class _FormcadastroState extends State<Formcadastro> {
             color: Colors.white,
             fontWeight: FontWeight.bold,
             fontSize: 18
-        ),),
+        ),
+        ),
         leading: IconButton(
             icon: Icon(Icons.arrow_back, color: Colors.white),
             onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => login())
