@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:stream_games/page/user/Screen_User/Wigets/page_myitens.dart';
+import 'package:stream_games/page/user/Screen_User/page_user.dart';
 
 class ScreenAjuda extends StatefulWidget {
   @override
@@ -23,8 +23,7 @@ class _ScreenAjudaState extends State<ScreenAjuda> {
         centerTitle: true,
         leading: IconButton(
           icon: Icon(Icons.arrow_back_ios, color: Colors.deepOrangeAccent),
-          onPressed: () => Navigator.of(context).push(
-          MaterialPageRoute (builder: (context) => Myuser())),
+          onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Screenuser())),
         ),
       ),
       extendBodyBehindAppBar: true,

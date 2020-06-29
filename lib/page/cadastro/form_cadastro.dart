@@ -141,7 +141,7 @@ class _FormcadastroState extends State<Formcadastro> {
     _scaffoldKey.currentState.showSnackBar(
         SnackBar(content: Text("Usuário criado com sucesso!"),
           backgroundColor: Colors.lightGreen,
-          duration: Duration(seconds: 3),
+          duration: Duration(seconds: 4),
         )
     );
     Future.delayed(Duration(seconds: 2)).then((_)=>
@@ -153,7 +153,7 @@ class _FormcadastroState extends State<Formcadastro> {
     _scaffoldKey.currentState.showSnackBar(
         SnackBar(content: Text("Falha ao criar o usuário"),
           backgroundColor: Colors.redAccent,
-          duration: Duration(seconds: 3),
+          duration: Duration(seconds: 4),
         )
     );
   }
