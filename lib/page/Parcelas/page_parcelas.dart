@@ -19,7 +19,7 @@ class SreenParcelas extends StatelessWidget {
           centerTitle: true,
           leading: IconButton(
               icon: Icon(Icons.arrow_back_ios, color: Colors.deepOrangeAccent),
-              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Screenuser())),
+              onPressed: () => Navigator.pop(context),
           ),
           bottom: TabBar(
             indicatorColor: Colors.deepOrangeAccent,
