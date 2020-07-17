@@ -20,7 +20,10 @@ class _ScreenuserState extends State<Screenuser> {
             fontWeight: FontWeight.bold,
             fontSize: 23),
         ),
-        leading: Icon(Icons.image, color: Colors.black87,),
+        leading: CircleAvatar(
+          backgroundColor: Colors.transparent,
+          backgroundImage: AssetImage("assets/ifunnerclaro.png"),
+        )
         //centerTitle: true,
       ),
       body: Myuser(),
